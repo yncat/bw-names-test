@@ -22,6 +22,12 @@
     case "click":
       click();
       break;
+    case "edit":
+      edit();
+      break;
+    case "submit":
+      submit();
+      break;
     default:
       die("そんな引数知りません、ざんねーん");
   }
